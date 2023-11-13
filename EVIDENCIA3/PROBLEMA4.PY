@@ -1,0 +1,11 @@
+import pandas as pd
+s= pd.Series([1,1,1,1,2,2,2,3,3,4])
+print(s.count())
+print(s.sum())
+print(s.cumsum())
+print(s.value_counts())
+print(s.value_counts(normalize=True))
+print(s.min())
+print(s.mean())
+print(s.std())
+print(s.describe())
